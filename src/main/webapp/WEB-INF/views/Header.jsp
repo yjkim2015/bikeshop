@@ -23,9 +23,8 @@
 			 </div>
 		 </div>
 		 <div id="inner2">
+		 	<div id="menu2">
 			 <ul>
-			 	<li><a href="#">NEW IN</a></li>
-			 	<li><a href="#">SALE~50%</a></li>
 			 	<li><a href="#">FIXED</a></li>
 			 	<li><a href="#">HYBRID</a></li>
 			 	<li><a href="#">ROAD</a></li>
@@ -40,6 +39,7 @@
 			 	<li><a href="#">REVIEW</a></li>
 			 	<li><a href="#">BRAND</a></li>
 			 </ul>
+			</div>
 		 </div>
 	</div>
 	

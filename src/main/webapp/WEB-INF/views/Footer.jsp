@@ -12,16 +12,21 @@
 	<div id="quick">
 		<div id="center">
 			<div id="center_name">
-			CUSTOMER CENTER
+			<dl>
+				<dt>CUSTOMER CENTER</dt>
+				<dd>
+				<strong>033-333-3333</strong>		
+				<br>		
+				WEEK AM10:30 - PM06:00
+				<br>
+				LUNCH PM12:00 - PM01:00
+				<br>
+				<font color="#ec0d9b">(토, 일, 공휴일 휴무)</font>			
+				</dd>
+			</dl>
 			</div>
-			<div id="center_detail">
-				<p>033-333-3333<p>
-				<p>WEEK AM10:30 - PM06:00</p>
-				<p>LUNCH PM12:00 - PM01:00</p>
-				<p>(토,일,공휴일 휴무)
-			</div>
-			
-		</div>
+
+	
 		
 		<div id="board">
 			<ul>
@@ -41,7 +46,7 @@
 / 반품시 경동택배 (080-873-2178) 자전거</p>
 		</div>
 	</div>
-	
+</div>
 	<div class="inner">
 		<ul class="menu">
 			<li><a href="#">회사소개</a>/</li>
