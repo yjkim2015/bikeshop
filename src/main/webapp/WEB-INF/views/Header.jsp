@@ -10,10 +10,10 @@
 	<div id="header">
 		 <div id="inner1">
 			 <div id="menu">
-			 <a href="#"><img src="../../resources/imgs/logo.png"></a>
+			 <a href="/"><img src="../../resources/imgs/logo.png"></a>
 				 <ul>
-					<li><a href="#">로그인</a></li>
-					<li><a href="#">회원가입</a></li>
+					<li><a href="/login">로그인</a></li>
+					<li><a href="/join">회원가입</a></li>
 					<li><a href="#">마이페이지</a></li>
 					<li><a href="#">주문배송조회</a></li>
 					<li><a href="#">장바구니</a></li>
@@ -25,7 +25,7 @@
 		 <div id="inner2">
 		 	<div id="menu2">
 			 <ul>
-			 	<li><a href="#">FIXED</a></li>
+			 	<li><a href="/fixed">FIXED</a></li>
 			 	<li><a href="#">HYBRID</a></li>
 			 	<li><a href="#">ROAD</a></li>
 			 	<li><a href="#">MTB</a></li>

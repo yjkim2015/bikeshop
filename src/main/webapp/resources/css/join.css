@@ -1,0 +1,266 @@
+#wrap{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+#join_content{
+	overflow: hidden;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #000;
+}
+.subtitle{
+    MARGIN-top: 0px;
+    WIDTH: 100%;
+    HEIGHT: 70px;
+    
+}
+.subtitle>h2{
+	TEXT-ALIGN: left;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+}
+.subtitle>p{
+    COLOR: #b1b1b1;
+    FONT-SIZE: 11px;
+    TOP: 20px;
+    RIGHT: 0px;
+}
+.tit-join{
+	margin-bottom: 0px;
+    padding-bottom: 6px;
+    border-bottom: 0px solid #3a4452;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mains{
+	width:100%;
+	margin:0 auto;
+}
+.main>.join_p{
+	padding: 10px 0 5px 0;
+    font-weight: bold;
+}
+.field_t{
+	width:100%;
+	margin: 0 auto;
+}
+.join_textarea{
+	width: 99%;
+    height: 100px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 돋움, verdana, tahoma, arial, sans-serif;
+    margin: 0px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    padding: 10px 0px 10px 10px;
+}
+.agree_p{
+	text-align: right;
+    width: 88%;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+    height: 20px;
+    font-size: 12px;
+    font-family: 돋움, Dotum, AppleGothic, sans-serif;
+    color: rgb(118, 118, 118);
+    vertical-align: middle;
+    padding: 2px;
+}
+.cont-tit{
+	text-align: left;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    color: #000;
+    font-weight: bold;
+    font-size:15px;
+    background: url(/images/d3/modern_simple/bull_tit_h11.gif) no-repeat 0 0;
+}
+.person-tb{
+	border:0px;
+	border-spacing:0px;
+	border-collapse:collapse;
+	width:100%;
+	display:table;
+}
+
+#personInfo{
+	padding: 15px 0;
+    border: 1px solid #b9b8b8;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+#personInfo>.person-tb th{
+	height:30px;
+	letter-spacing:-1px;
+	bertical-align:middle;
+    border-right: 1px solid #fcf7f8;
+    
+}
+    
+.tb-l{
+	text-align:left;
+	font-size:12px;
+}
+.pl-30{
+	padding-left:15px;
+	padding-top:5px;
+}
+.red{
+    color: #ff6590;
+}
+
+
+.page-body{
+		width: 700px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid #e5e5e5;
+}
+.mlog-sign{
+	width:700px;
+	min-height:206px;
+}
+.mlog{
+	    border-right: 1px solid #e5e5e5;
+    position: relative;
+    width: 350px;
+    height: 180px;
+    float:left;
+}
+legend{
+	height:0px;
+	width:0px;
+	display:block;
+	text-indent:-9999em;
+	
+}
+#loginform{
+	    font-size: 12px;
+    padding: 2px;
+    font-family: 돋움, Dotum, AppleGothic, sans-serif;
+    color: rgb(118, 118, 118);
+    vertical-align: middle;
+}
+fieldset{
+	border: none;
+    vertical-align: top;
+    text-align: center;
+}
+.frm-list{
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    width: 350px;
+    color: #3F3F3F;
+    text-decoration: none;
+	padding-left:0px;
+	
+}
+.frm-list>li{
+	font-size: 11px;
+    text-align: left;
+    height: 32px;
+    overflow: hidden;
+    display: block;
+    width: 305px;
+    margin: 0 0 2px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    line-height: 32px;
+    padding: 0 0 0 8px
+}
+#id,#member_passwd{
+	font-size: 11px;
+    width: 240px;
+    height: 23px;
+    padding: 2px 0 2px 0;
+    line-height: 23px;
+    border: 1px solid #d9d9d9;
+    float: right;
+    border: none;
+}
+
+.id>label{
+	width:300px;
+	padding-top:2px;
+}
+.buttonlogin{
+	position: absolute;
+	left:0px;
+	top:90px;
+	width:310px;
+	margin :10px 0 0;
+}
+.buttonlogin span a{
+	width: 100%;
+    line-height: 14px;
+    padding: 20px 0;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Roboto', arial;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000;
+}
+.btnlogin{
+	display: inline-block;
+    border: 2px solid #333;
+    border-radius: 2px;
+    margin: 0 2px;
+    background: #fff
+}
+.sign{
+    left: 370px;
+    top: 0px;
+    width: 300px;
+    font-size: 11px;
+    text-align: center;
+    border: 0px solid #000;
+    margin-left: 15px;
+    float:left;
+}
+.sign>.msg{
+    text-align: left;
+    line-height: 14px;
+    color: #3F3F3F;
+    text-decoration: none;
+ }
+ .buttonlogin1{
+ width:300px;
+ margin:10px 0 0;
+ }
+ .buttonlogin1 span a{
+     width: 100%;
+    line-height: 14px;
+    padding: 10px 0;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Roboto', 'arial';
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration:none;
+ }
+ .btnlogin1{
+     display: inline-block;
+    border: 1px solid #333;
+    border-radius: 2px;
+    margin: 0 2px;
+    background: #6D6D6D;
+ }

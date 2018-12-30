@@ -9,7 +9,7 @@
 <%@include file="Header.jsp" %>
 <div id="content">
 	<div id="content_ad">
-		<img src="../../resources/imgs/bike1.png" style="width:100%">
+		<img src="../../resources/imgs/bike1.png" style="width:100%;height:560px;">
 	</div>
 	<div id="mainrow1">
 		<p><strong>FIXED</strong></p>
@@ -187,11 +187,25 @@
             			</p>
             		</div>
         	    </li>
+			<li>
+            		<div class="listimg">
+            			<a href="/shop/view.php?index_no=6612&amp;main_idx=6">
+            				<img src="http://cdn-bikeselling.bizhost.kr/files/goods/6612/1537505541_0.jpg" class="limg">
+            			</a>
+            		</div>
+            		<div class="additem">
+            			<p class="gname">지오닉스 바이런 XD870S 27.5 30단 MTB</p>
+            			<p class="gname_pre">가성비 절대 우위! 데오레30단과 유압디스크까지!</p>
+            			<p class="account">
+							<s><s>820,000</s> </s>&nbsp;379,000 원 <span></span>				
+            			</p>
+            		</div>
+        	    </li>
 			</ul>
 		</div>
 	</div>
 	<div id="mainrow4">
-		<p><strong>HYBRID</strong></p>
+		<p><strong>MTB</strong></p>
 		<div id="index1">
 			<ul>
 				<li>
@@ -254,7 +268,7 @@
 		</div>
 	</div>
 	<div id="mainrow5">
-		<p><strong>HYBRID</strong></p>
+		<p><strong>MINI</strong></p>
 		<div id="index1">
 			<ul>
 				<li>
@@ -317,7 +331,7 @@
 		</div>
 	</div>
 	<div id="mainrow6">
-		<p><strong>HYBRID</strong></p>
+		<p><strong>KIDS</strong></p>
 		<div id="index1">
 			<ul>
 				<li>

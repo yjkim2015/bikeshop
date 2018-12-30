@@ -23,17 +23,23 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
+	public String main(Locale locale, Model model) {
 		
 		return "Main";
 	}
-	
+	@RequestMapping(value = "/fixed", method = RequestMethod.GET)
+	public String fixed(Locale locale, Model model) {
+		
+		return "list";
+	}
+	@RequestMapping(value = "/join", method = RequestMethod.GET)
+	public String join(Locale locale, Model model) {
+		
+		return "join";
+	}
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String login(Locale locale, Model model) {
+		
+		return "login";
+	}
 }

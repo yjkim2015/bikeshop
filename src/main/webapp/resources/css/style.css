@@ -22,8 +22,8 @@ body{
 #menu>a>img{
 	width:135px;
 	height:29px;
-	margin-right:220px;
-	margin-left:35px;
+	margin-right:330px;
+
 }
 
 #menu>ul>li{
@@ -48,7 +48,9 @@ body{
 	margin:auto;
 	
 }
-
+#menu2>ul{
+	text-align:center;
+}
 #menu2>ul>li{
 	margin-top:15px;
 	display:inline-block;
