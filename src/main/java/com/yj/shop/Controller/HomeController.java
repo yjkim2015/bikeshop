@@ -42,4 +42,9 @@ public class HomeController {
 		
 		return "login";
 	}
+	@RequestMapping(value = "/mypage", method = RequestMethod.GET)
+	public String mypage(Locale locale, Model model) {
+		
+		return "mypage";
+	}
 }
