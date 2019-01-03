@@ -30,7 +30,7 @@ public class HomeController {
 	@RequestMapping(value = "/fixed", method = RequestMethod.GET)
 	public String fixed(Locale locale, Model model) {
 		
-		return "list";
+		return "/bike/fixed_list";
 	}
 	@RequestMapping(value = "/join", method = RequestMethod.GET)
 	public String join(Locale locale, Model model) {
@@ -44,7 +44,10 @@ public class HomeController {
 	}
 	@RequestMapping(value = "/mypage", method = RequestMethod.GET)
 	public String mypage(Locale locale, Model model) {
-		
 		return "mypage";
+	}
+	@RequestMapping(value = "/order_deliver", method = RequestMethod.GET)
+	public String order_deliver(Locale locale, Model model) {
+		return "order_deliver";
 	}
 }

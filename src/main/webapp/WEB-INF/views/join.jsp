@@ -79,7 +79,6 @@
                                         <a href="javascript:checkid();" onfocus="this.blur();">
                                         <img alt="중복확인" src="http://bongjashop.imglink.kr/wepix_design/contents/btn_overlap_h19.gif" border="0" align="absmiddle">
                                         </a>
-                                        <p id="idresult"></p>
                                     </div>
                                 </td>
                             </tr>
@@ -178,7 +177,7 @@
                             </tr>
                             <tr>
                                 <th>
-                                    <div class="tb-l pl-30"><span class="red">*</span>휴대폰</div>
+                                    <div class="tb-l pl-30"><span class="red">*</span>&nbsp;휴대폰</div>
                                 </th>
                                 <td>
                                     <div class="tb-l pl-6 pl-mobile">

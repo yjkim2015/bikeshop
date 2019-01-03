@@ -9,7 +9,7 @@
 
 </head>
 <body>
-<%@include file="Header.jsp" %>
+<%@include file="../Header.jsp" %>
 <div id="wrap">
 	<div class="content">
 	<div class="titleImg">
@@ -75,7 +75,7 @@
 	
 	
 </div>
-<%@include file="Footer.jsp" %>
+<%@include file="../Footer.jsp" %>
 
 </body>
 </html>

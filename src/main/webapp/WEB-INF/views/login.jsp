@@ -20,7 +20,7 @@
                     <fieldset>
                         <legend>member login</legend>
                         <ul class="frm-list">
-                            <li class="id"><label><span class="name">아이디</span><span><input type="text" id="id" name="id" maxlength="20" onkeypress="javascript:if(event.keyCode == 13) { loginch() }" class="MS_login_id" value=""></span></label></li>
+                            <li class="id"><label><span class="name">아이디</span><span><input type="text" id="member_id" name="id" maxlength="20" onkeypress="javascript:if(event.keyCode == 13) { loginch() }" class="MS_login_id" value=""></span></label></li>
                             <li class="id"><label><span class="name">비밀번호</span><span><input type="password" id="member_passwd" name="passwd" maxlength="20" onkeypress="javascript:if(event.keyCode == 13) { loginch() }" value="" class="MS_login_pw" style="margin-left:10px;"></span></label></li>
                         </ul>
                         <p class="buttonlogin"><span><a href="javascript:loginch();" class="btnlogin">LOGIN</a></span></p>

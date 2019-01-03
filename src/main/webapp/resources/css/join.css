@@ -115,7 +115,7 @@
 }
 .pl-30{
 	padding-left:15px;
-	padding-top:5px;
+	
 }
 .red{
     color: #ff6590;
@@ -182,7 +182,7 @@ fieldset{
     line-height: 32px;
     padding: 0 0 0 8px
 }
-#id,#member_passwd{
+#member_id,#member_passwd{
 	font-size: 11px;
     width: 240px;
     height: 23px;
@@ -406,4 +406,74 @@ fieldset{
     border-collapse: collapse;
     width: 100%;
     font-size:13px;
+}
+.mypage_list>h3{
+	margin-top:40px;
+	TEXT-ALIGN: left;
+    PADDING-BOTTOM: 18px;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 100px;
+}
+.table_style{
+	width:100%;
+	border-collapse:collapse;
+	clear:both;
+}
+.table_style>caption{
+	display:none;
+}
+.table_style>thead>tr>th.first{
+	BORDER-LEFT: #ddd 1px solid;
+}
+.table_style>thead>tr>th{
+	BORDER-BOTTOM: #ddd 1px solid;
+    TEXT-ALIGN: center;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    BACKGROUND: #f0f0f0;
+    COLOR: #7c7c7c;
+    FONT-SIZE: 11px;
+    BORDER-TOP: #ddd 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-RIGHT: #ddd 1px solid;
+    PADDING-TOP: 5px;
+}
+.table_style>tbody>tr>td{
+	
+	BORDER-BOTTOM: #ddd 1px solid;
+    TEXT-ALIGN: center;
+    PADDING-BOTTOM: 7px;
+    LINE-HEIGHT: 120%;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    COLOR: #7c7c7c;
+    FONT-SIZE: 11px;
+    PADDING-TOP: 7px;
+}
+
+.mypage_list>.msg{
+	    TEXT-ALIGN: left;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 25px;
+}
+.mypage_list>.msg>li{
+	PADDING-BOTTOM: 0px;
+    LIST-STYLE-TYPE: none;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    LETTER-SPACING: -1px;
+    COLOR: #585858;
+    FONT-SIZE: 11px;
+    LIST-STYLE-IMAGE: none;
+    PADDING-TOP: 0px;
+}
+.mypage_list>.msg>li>span{
+	    COLOR: #f6301c;
 }
