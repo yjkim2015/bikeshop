@@ -477,3 +477,108 @@ fieldset{
 .mypage_list>.msg>li>span{
 	    COLOR: #f6301c;
 }
+#cartWrap{
+	margin:0 0 50px 0;
+}
+#table2{
+	border-collapse:collapse;
+	margin:20px auto;
+	width:100%;
+}
+#table2>tbody>tr>th{
+	    border: 1px solid #e3e3e3;
+    padding: 20px 10px;
+}
+#cart>form>input{
+	    font-size: 12px;
+    padding: 2px;
+    font-family: ë‹ì›€, Dotum, AppleGothic, sans-serif;
+    color: rgb(118, 118, 118);
+    vertical-align: middle;
+}
+.table_style{
+	    WIDTH: 100%;
+    BORDER-COLLAPSE: collapse;
+    CLEAR: both;
+}
+.table_style>caption{
+	display:none;
+}
+.table_style>thead>th.first{
+	    BORDER-LEFT: #ddd 1px solid;
+}
+	
+.table_style>thead>th{
+	    BORDER-BOTTOM: #ddd 1px solid;
+    TEXT-ALIGN: center;
+    PADDING-BOTTOM: 5px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    BACKGROUND: #f0f0f0;
+    COLOR: #7c7c7c;
+    FONT-SIZE: 11px;
+    BORDER-TOP: #ddd 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-RIGHT: #ddd 1px solid;
+    PADDING-TOP: 5px;
+}
+.tb_center{
+	text-align:center;
+}
+.tb-right{
+	text-align:center;
+}
+.table_price{
+	PADDING-BOTTOM: 20px;
+    PADDING-LEFT: 0px;
+    WIDTH: 100%;
+    PADDING-RIGHT: 0px;
+    BACKGROUND: #f3f3f3;
+    PADDING-TOP: 20px;
+}
+.table_price>table{
+	width:100%;
+}
+.table_price>table>tbody>tr>th{
+	TEXT-ALIGN: right;
+    COLOR: #7a7a7a;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: normal;
+}
+.table_price>table>tbody>tr>th>.point{
+	COLOR: #ff297b;
+    FONT-WEIGHT: bold;
+}
+.cartBtn{
+	    width: 1200px;
+    margin-top: 30px;
+}
+.cartBtn>.cB-center{
+	    float: left;
+    width: 1050px;
+    text-align: center;
+}
+.cartBtn>.cB-center>a{
+	text-decoration:none;
+}
+.cartBtn>.cB-center>a>img{
+	border:none;
+	vertical-align:top;
+	text-align:center;
+}
+.mypage_list>h3{
+	    TEXT-ALIGN: left;
+    PADDING-BOTTOM: 18px;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 50px;
+}
+.mypage_list>h3>img{
+	border: none;
+    vertical-align: top;
+    text-align: center;
+}
+#wishlist{
+	margin-top:-50px;
+}

@@ -50,4 +50,13 @@ public class HomeController {
 	public String order_deliver(Locale locale, Model model) {
 		return "order_deliver";
 	}
+	@RequestMapping(value = "/cart", method = RequestMethod.GET)
+	public String cart(Locale locale, Model model) {
+		return "cart";
+	}
+	@RequestMapping(value = "/interest", method = RequestMethod.GET)
+	public String interest(Locale locale, Model model) {
+		return "interest";
+	}
+
 }

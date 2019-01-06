@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="../../resources/css/join.css"></head>
 
-</head>
 <body>
 <%@include file="Header.jsp" %>
 <div id="wrap">

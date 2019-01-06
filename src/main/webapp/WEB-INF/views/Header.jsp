@@ -16,8 +16,8 @@
 					<li><a href="/join">회원가입</a></li>
 					<li><a href="/mypage">마이페이지</a></li>
 					<li><a href="/order_deliver">주문배송조회</a></li>
-					<li><a href="#">장바구니</a></li>
-					<li><a href="#">관심상품</a></li>
+					<li><a href="/cart">장바구니</a></li>
+					<li><a href="/interest">관심상품</a></li>
 					<li><a href="#">공지사항</a></li>
 				 </ul>
 			 </div>
