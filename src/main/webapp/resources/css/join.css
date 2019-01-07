@@ -582,3 +582,80 @@ fieldset{
 #wishlist{
 	margin-top:-50px;
 }
+#real_cnt{
+	width:100%;
+	padding:0;
+}
+#real_cnt>.bw-list{
+	width:100%;
+	margin:20px 0 100px 0;
+}
+#real_cnt>.bw-list>.blist{
+	width:100%;
+	margin:15px 0 0 0;
+	padding:0;
+	border-top:1px solid #141414;
+	border-spacing:0px;
+	border:0px;
+	border-collapse:collapse;
+}
+#real_cnt>.bw-list>.blist>thead>tr>th{
+	height: 42px;
+	border-top: 1px solid #141414;
+    border-bottom: 1px solid #141414;
+    font-size: 12px;
+    font-weight: normal;
+    color: #141414;
+}
+#real_cnt>.bw-list>.blist>tbody>tr>td{
+	font-size: 11px;
+    color: #7c7c7c;
+    border-bottom: 1px solid #dddddd;
+    background: #fff;
+    padding: 10px 0;
+	vertical-align: middle;
+    text-align: center;
+}
+#real_cnt>.bw-list>.blist>tbody>tr>td>a{
+	font-size: 11px;
+    color: #7c7c7c;
+    line-height: 11px;
+    text-decoration:none;
+}
+.paging{
+	    position: relative;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: center;
+}
+.paging_nonline{
+	height:40px;
+	padding-top:10px;
+	text-aling:center;
+}
+.page{
+	float:left;
+}
+.searchbbs{
+	 height: 20px;
+    position: absolute;
+    left: 0;
+    z-index: 99999;
+}
+.board_list_button{
+	right:0;
+}
+.board_list_button>a{
+	text-decoration:none;
+	color: #000
+}
+.board_button{
+	    width: 150px;
+    padding: 4px;
+    background: #FFF;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    display: inline-block;
+}

@@ -58,5 +58,9 @@ public class HomeController {
 	public String interest(Locale locale, Model model) {
 		return "interest";
 	}
+	@RequestMapping(value = "/notice", method = RequestMethod.GET)
+	public String notice(Locale locale, Model model) {
+		return "notice";
+	}
 
 }

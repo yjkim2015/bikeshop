@@ -18,7 +18,7 @@
 					<li><a href="/order_deliver">주문배송조회</a></li>
 					<li><a href="/cart">장바구니</a></li>
 					<li><a href="/interest">관심상품</a></li>
-					<li><a href="#">공지사항</a></li>
+					<li><a href="/notice">공지사항</a></li>
 				 </ul>
 			 </div>
 		 </div>
