@@ -35,9 +35,9 @@
 			 	<li><a href="#">KIDS</a></li>
 			 	<li><a href="#">E-BIKE</a></li>
 			 	<li><a href="#">ACC / PARTS</a></li>
-			 	<li><a href="#">QNA</a></li>
-			 	<li><a href="#">REVIEW</a></li>
-			 	<li><a href="#">BRAND</a></li>
+			 	<li><a href="/qna">QNA</a></li>
+			 	<li><a href="/review">REVIEW</a></li>
+			 	<li><a href="/brand">BRAND</a></li>
 			 </ul>
 			</div>
 		 </div>
