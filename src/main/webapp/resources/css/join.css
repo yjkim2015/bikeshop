@@ -586,6 +586,9 @@ fieldset{
 	width:100%;
 	padding:0;
 }
+#real_cnt>p>a,a:link,a:visited{
+	color:#000;	
+}
 #real_cnt>.bw-list{
 	width:100%;
 	margin:20px 0 100px 0;
