@@ -220,6 +220,9 @@ body{
 	margin-left:40px;
 	display:inline-block;
 }
+#board>ul>li>a{
+	text-decoration:none;
+}
 #return{
 	padding-top:20px;
 	color: #696969;

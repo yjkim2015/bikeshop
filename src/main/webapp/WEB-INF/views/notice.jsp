@@ -19,9 +19,9 @@
 			<map name="event_on.jpg">
 				<area href="/notice" shape="rect" coords="1,2,205,126" target="" alt="">
 				<area href="/qna" shape="rect" coords="212,3,416,125" target="" alt="">
-				<area href="/bbs/list.php?boardid=after" shape="rect" coords="421,1,625,125" target="" alt="">
-				<area href="/center/faq.php" shape="rect" coords="630,1,836,127" target="" alt="">
-				<area href="/bbs/list.php?boardid=event" shape="rect" coords="841,1,1046,126" target="" alt="">
+				<area href="/review" shape="rect" coords="421,1,625,125" target="" alt="">
+				<area href="/faq" shape="rect" coords="630,1,836,127" target="" alt="">
+				<area href="/event" shape="rect" coords="841,1,1046,126" target="" alt="">
 			</map>
 		</p>
 	</div>

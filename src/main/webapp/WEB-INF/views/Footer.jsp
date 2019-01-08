@@ -30,19 +30,19 @@
 		
 		<div id="board">
 			<ul>
-				<li>공지사항</li>
-				<li>문의게시판</li>
-				<li>포토리뷰/후기</li>
+				<li><a href="/notic">공지사항</a></li>
+				<li><a href="/qna">문의게시판</a></li>
+				<li><a href="/review">포토리뷰/후기</a></li>
 			</ul>
 			<ul>
-				<li>개인결제창</li>
+				<li><a href="/order_deliver">개인결제창</a></li>
 				<li>등급별혜택</li>
-				<li>이벤트</li>
+				<li><a href="/event">이벤트</a></li>
 			</ul>
 		</div>
 		<div id="return">
 		<p><strong>RETURN ADDRESS.</strong><p>
-		<p>경기도 광주시 초월읍 무갑리 448-2 "바이크셀링" 
+		<p>해남시 초월읍 무갑리 448-2 "바이크셀링" 
 / 반품시 경동택배 (080-873-2178) 자전거</p>
 		</div>
 	</div>
