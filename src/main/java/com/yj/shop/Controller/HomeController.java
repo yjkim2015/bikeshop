@@ -27,6 +27,11 @@ public class HomeController {
 		
 		return "Main";
 	}
+	@RequestMapping(value = "/ex", method = RequestMethod.GET)
+	public String ex(Locale locale, Model model) {
+		
+		return "ex";
+	}
 	@RequestMapping(value = "/fixed", method = RequestMethod.GET)
 	public String fixed(Locale locale, Model model) {
 		
