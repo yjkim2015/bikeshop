@@ -1,6 +1,7 @@
 package com.yj.shop.core.security;
 
 import java.io.IOException;
+import java.util.Date;
 import java.util.Map;
 
 import javax.annotation.Resource;
@@ -24,7 +25,7 @@ public class LoginHandler implements AuthenticationSuccessHandler, Authenticatio
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(LoginHandler.class);
 	
-	@Resource(name="sessionRegistrySessiionIds")
+	@Resource(name="sessionRegistrySessionIds")
 	private transient Map<String, SessionInformation> sessionIds;
 	
 	@Override
@@ -33,7 +34,7 @@ public class LoginHandler implements AuthenticationSuccessHandler, Authenticatio
 		response.setContentType("application/json");
 		response.setCharacterEncoding("utf-8");
 		
-		response.getWriter().print("{\"result\":\"FAIL\", \"reason\":\"ID / PASSWORD를 확인하세요.\"}");
+		response.getWriter().print("{\"result\":\"FAIL\", \"reason\":\"ID / PASSWORD瑜� �솗�씤�븯�꽭�슂.\"}");
 		response.getWriter().flush(); 
 	}
 
@@ -48,8 +49,9 @@ public class LoginHandler implements AuthenticationSuccessHandler, Authenticatio
 		userVo.setIpAddress(request.getRemoteAddr());
 		session.setAttribute("USER", userVo);
 		
-		//final SessionInformation I
-		
+		final SessionInformation information = new CustomSessionInformation(authentication.getDetails(), session.getId(), new Date(), request.getRemoteAddr());
+		sessionIds.put(session.getId(), information);
+
 		String redirectUrl = request.getContextPath() +"/main";
 		final String requestURI = (String)session.getAttribute("requestURI");
 		

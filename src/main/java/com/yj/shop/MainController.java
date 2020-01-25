@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
-public class HomeController {
+public class MainController {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(MainController.class);
 	
 	/**
 	 * Simply selects the home view to render by returning its name.
@@ -39,11 +39,6 @@ public class HomeController {
 	public String join(Locale locale, Model model) {
 		
 		return "join";
-	}
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String login(Locale locale, Model model) {
-		
-		return "login";
 	}
 	@RequestMapping(value = "/mypage", method = RequestMethod.GET)
 	public String mypage(Locale locale, Model model) {

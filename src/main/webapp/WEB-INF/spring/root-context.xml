@@ -42,6 +42,11 @@
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
 	
+	<bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.yj.shop.**"/>	
+		<property name="annotationClass" value="org.springframework.stereotype.Repository"/>	
+	</bean>
+	
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
 	
 	

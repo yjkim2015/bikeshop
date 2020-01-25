@@ -53,10 +53,9 @@
 		<csrf disabled="true" />
 	</http>
 
-	<!-- <beans:bean id="loginHandler" class="com.ericssonlg.ems.tacs_agent.core.security.LoginHandler" />
-	<beans:bean id="logoutHandler" class="com.ericssonlg.ems.tacs_agent.core.security.LogoutHandler" />
-	<beans:bean id="customWebAuthenticationDetailsSource" class="com.ericssonlg.ems.tacs_agent.core.security.CustomWebAuthenticationDetailsSource" />
-	<beans:bean class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler" /> -->
+	<beans:bean id="loginHandler" class="com.yj.shop.core.security.LoginHandler" />
+	<beans:bean id="logoutHandler" class="com.yj.shop.core.security.LogoutHandler" />
+	<beans:bean class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler" />
 	
 	<!-- 세션정보 저장소 생성 -->
 	<beans:bean id="sessionRegistry" class="org.springframework.security.core.session.SessionRegistryImpl">
@@ -81,7 +80,7 @@
 		<authentication-provider ref="customAuthenticationProvider" />
 	</authentication-manager>
 
-	<!-- <beans:bean id="customAuthenticationProvider" class="com.ericssonlg.ems.tacs_agent.core.security.CustomAuthenticationProvider" /> -->
+	<beans:bean id="customAuthenticationProvider" class="com.yj.shop.core.security.CustomAuthenticationProvider" /> 
 
 	<context:annotation-config />
 </beans:beans>

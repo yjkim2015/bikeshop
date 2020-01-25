@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yj.shop.user.UserDao">
+
+	<select id="selectOneUser" parameterType="com.yj.shop.vo.UserVo" resultType="com.yj.shop.vo.UserVo">
+		SELECT * FROM TB_USER WHERE USER_ID = #{userId}
+	</select>
+	
+	<select id="LoginCheck" parameterType="com.yj.shop.vo.UserVo" resultType="int">
+		SELECT COUNT(*) FROM TB_USER WHERE USER_ID = #{userId} AND USER_PASSWORD = #{userPassword}
+	</select>
+</mapper>
