@@ -23,7 +23,7 @@
 			<frame-options disabled="true"></frame-options>
 		</headers>
 		<intercept-url pattern="/favicon.ico" access="permitAll" />
-		<intercept-url pattern="/login/index" access="permitAll" />
+		<intercept-url pattern="/login" access="permitAll" />
 		<!-- <intercept-url pattern="/session/duplicate" access="permitAll" />
 		<intercept-url pattern="/session/check" access="permitAll" />
 		<intercept-url pattern="/session/destroy" access="permitAll" />
@@ -32,7 +32,7 @@
 		<intercept-url pattern="/**" access="isAuthenticated()" />
 		
 			<!-- authentication-details-source-ref="customWebAuthenticationDetailsSource" -->
-		<form-login login-page="/login/index"
+		<form-login login-page="/login"
 			username-parameter="userId"
 			password-parameter="userPassword"
 			login-processing-url="/login/proc"
@@ -40,7 +40,7 @@
 			authentication-success-handler-ref="loginHandler"
 			authentication-failure-handler-ref="loginHandler" />
 
-		<session-management invalid-session-url="/login/index" session-authentication-error-url="/login/index" >
+		<session-management invalid-session-url="/login" session-authentication-error-url="/login" >
 			<!-- 1명이 로그인 하면  다른사람이 중복 로그인시 에러를 반환 -->
 			<!-- <concurrency-control error-if-maximum-exceeded="true" max-sessions="1" expired-url="/login_duplicate" /> -->
 			

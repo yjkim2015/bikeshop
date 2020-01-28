@@ -15,6 +15,6 @@ public interface UserDao {
 	public UserVo selectOneUser(UserVo userVo) throws Exception;
 	public List<UserVo> selectUserList(UserVo userVo) throws Exception;
 	
-	public int LoginCheck(UserVo userVo) throws Exception;
+	public UserVo LoginCheck(UserVo userVo) throws Exception;
 	
 }

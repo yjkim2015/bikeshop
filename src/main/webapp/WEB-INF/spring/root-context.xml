@@ -27,10 +27,10 @@
 	
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="${db.driver}"/>
-		<property name="url" value="${db.url"/>
+		<property name="url" value="${db.url}"/>
 		<property name="username" value="${db.user}"/>
 		<property name="password" value="${db.password}"/>
-		<property name="validationQuery" value="${db.validation.query"/>
+		<property name="validationQuery" value="${db.validation.query}"/>
 	</bean>
 	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" p:configLocation="/WEB-INF/spring/sql-mapper-config.xml">

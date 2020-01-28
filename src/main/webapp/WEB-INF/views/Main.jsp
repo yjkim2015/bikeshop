@@ -7,6 +7,7 @@
 </head>
 <body>
 <%@include file="Header.jsp" %>
+
 <div id="content">
 	<div id="content_ad">
 		<img src="../../resources/imgs/bike1.png" style="width:100%;height:560px;">

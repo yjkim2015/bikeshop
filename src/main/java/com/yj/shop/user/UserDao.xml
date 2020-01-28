@@ -8,7 +8,16 @@
 		SELECT * FROM TB_USER WHERE USER_ID = #{userId}
 	</select>
 	
-	<select id="LoginCheck" parameterType="com.yj.shop.vo.UserVo" resultType="int">
-		SELECT COUNT(*) FROM TB_USER WHERE USER_ID = #{userId} AND USER_PASSWORD = #{userPassword}
+	<select id="LoginCheck" parameterType="com.yj.shop.vo.UserVo" resultType="com.yj.shop.vo.UserVo">
+		SELECT * FROM TB_USER WHERE USER_ID = #{userId} AND USER_PASSWORD = #{userPassword}
 	</select>
+	
+	<update id="updateUser" parameterType="com.yj.shop.vo.UserVo">
+		UPDATE
+			TB_USER
+		SET 
+			LAST_LOGIN_DATE = #{lastLoginDate}
+		WHERE
+			USER_ID = #{userId}
+	</update>
 </mapper>

@@ -4,26 +4,50 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>로그인</title>
 <link rel="stylesheet" type="text/css" href="../../resources/css/join.css">
+<script type="text/javascript" src="../../resources/js/common_util.js"></script>
+
 </head>
 <body>
 <%@include file="Header.jsp" %>
 
+<script>
+
+$(function() {
+	initEvent();
+});
+
+function initEvent() {
+	$('.btnlogin').on('click',function(){
+		var userId = $('#member_id').val();
+		var userPassword = $('#member_passwd').val();
+
+		goAjaxPost('/login/proc?userId=' + userId + '&userPassword=' + encodeURIComponent(userPassword), null, function(result) {
+			if ( result.result == 'OK' ) {
+				location.href = result.redirectUrl;
+			}
+			else {
+				alert(result.reason);
+			}
+		});
+	});
+}
+</script>
 <div id="wrap">
 	<div id="join_content">
 	<div id="loginWrap">
     <div class="page-body">
        	   <div class="mlog-sign">
-	    	   <form name="loginform" id="loginform" action="loginpro.php" method="post"><input type="hidden" name="url" value="/member/join.php">
+	    	   <form name="loginform" id="loginform" action="" method="post">
                 <div class="mlog">
                     <fieldset>
                         <legend>member login</legend>
                         <ul class="frm-list">
-                            <li class="id"><label><span class="name">아이디</span><span><input type="text" id="member_id" name="id" maxlength="20" onkeypress="javascript:if(event.keyCode == 13) { loginch() }" class="MS_login_id" value=""></span></label></li>
-                            <li class="id"><label><span class="name">비밀번호</span><span><input type="password" id="member_passwd" name="passwd" maxlength="20" onkeypress="javascript:if(event.keyCode == 13) { loginch() }" value="" class="MS_login_pw" style="margin-left:10px;"></span></label></li>
+                            <li class="id"><label><span class="name">아이디</span><span><input type="text" id="member_id" name="id" maxlength="20" class="MS_login_id" value=""></span></label></li>
+                            <li class="id"><label><span class="name">비밀번호</span><span><input type="password" id="member_passwd" name="passwd" maxlength="20"  value="" class="MS_login_pw" style="margin-left:10px;"></span></label></li>
                         </ul>
-                        <p class="buttonlogin"><span><a href="javascript:loginch();" class="btnlogin">LOGIN</a></span></p>
+                        <p class="buttonlogin"><span><a href="#" class="btnlogin">LOGIN</a></span></p>
                     </fieldset>
                 </div>
 

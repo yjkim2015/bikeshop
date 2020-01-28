@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService{
 
 	@Override
 	public int updateUser(UserVo userVo) throws Exception {
-		return 0;
+		return userDao.updateUser(userVo);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class UserServiceImpl implements UserService{
 	}
 
 	@Override
-	public int LoginCheck(UserVo userVo) throws Exception {
+	public UserVo LoginCheck(UserVo userVo) throws Exception {
 		return userDao.LoginCheck(userVo);
 	}
 	

@@ -149,7 +149,7 @@ public class UserVo {
 	public void setLastLoginDate(Date lastLoginDate) {
 		this.lastLoginDate = lastLoginDate;
 	}
-	
+
 	public String getSessionId() {
 		return sessionId;
 	}
@@ -175,5 +175,6 @@ public class UserVo {
 				+ ", userPoint=" + userPoint + ", lastLoginDate=" + lastLoginDate + ", sessionId=" + sessionId
 				+ ", ipAddress=" + ipAddress + "]";
 	}
+
 	
 }

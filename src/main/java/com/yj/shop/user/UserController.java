@@ -18,17 +18,13 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-	@RequestMapping(value="/userCheck", method = RequestMethod.POST)
-	public @ResponseBody ResponseEntity<ResultVo> userCheck(@RequestBody UserVo userVo){
-		final ResultVo resultVo = new ResultVo(HttpStatus.OK);
-		
-		try {
-			if ( userService.LoginCheck(userVo) <= 0) {
-				resultVo.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return resultVo.build();
-	}
+	/*
+	 * @RequestMapping(value="/userCheck", method = RequestMethod.POST)
+	 * public @ResponseBody ResponseEntity<ResultVo> userCheck(@RequestBody UserVo
+	 * userVo){ final ResultVo resultVo = new ResultVo(HttpStatus.OK);
+	 * 
+	 * try { if ( userService.LoginCheck(userVo) <= 0) {
+	 * resultVo.setStatus(HttpStatus.INTERNAL_SERVER_ERROR); } } catch (Exception e)
+	 * { e.printStackTrace(); } return resultVo.build(); }
+	 */
 }

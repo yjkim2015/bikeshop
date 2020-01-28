@@ -34,7 +34,7 @@ public class LoginHandler implements AuthenticationSuccessHandler, Authenticatio
 		response.setContentType("application/json");
 		response.setCharacterEncoding("utf-8");
 		
-		response.getWriter().print("{\"result\":\"FAIL\", \"reason\":\"ID / PASSWORD瑜� �솗�씤�븯�꽭�슂.\"}");
+		response.getWriter().print("{\"result\":\"FAIL\", \"reason\":\""+exception.getMessage()+"\"}");
 		response.getWriter().flush(); 
 	}
 
@@ -52,7 +52,7 @@ public class LoginHandler implements AuthenticationSuccessHandler, Authenticatio
 		final SessionInformation information = new CustomSessionInformation(authentication.getDetails(), session.getId(), new Date(), request.getRemoteAddr());
 		sessionIds.put(session.getId(), information);
 
-		String redirectUrl = request.getContextPath() +"/main";
+		String redirectUrl = request.getContextPath() +"/";
 		final String requestURI = (String)session.getAttribute("requestURI");
 		
 		if ( requestURI != null ) {

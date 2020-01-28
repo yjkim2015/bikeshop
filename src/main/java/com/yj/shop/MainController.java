@@ -25,6 +25,11 @@ public class MainController {
 		
 		return "Main";
 	}
+	@RequestMapping(value = "/admin", method = RequestMethod.GET)
+	public String admin(Locale locale, Model model) {
+		return "home";
+	}
+	
 	@RequestMapping(value = "/ex", method = RequestMethod.GET)
 	public String ex(Locale locale, Model model) {
 		
